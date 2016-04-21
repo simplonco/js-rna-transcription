@@ -4,4 +4,4 @@ node_js:
 before_install:
   - "npm install jasmine-node"
 script:
-  - "jasmine-node *.spec.js --verbose"
+  - "jasmine-node *.spec.js --verbose --captureExceptions"
